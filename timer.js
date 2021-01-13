@@ -7,7 +7,7 @@ const timer = function(){
   let setTimes = (n, cue) =>{
     if(cue > 0 || cue===Number){
       setTimeout( () => {
-        process.stdout.write('\x07 🔔  \n');
+        process.stdout.write('\x07 🔔 ');
         // console.log('\x07 🔔  \n')
       }, cue);
     }
